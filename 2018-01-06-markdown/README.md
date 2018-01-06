@@ -58,3 +58,13 @@ __Enclose by double star or double underscore to make text bold__
 ### Images
 
 ![Alt text for image](image1.png)
+
+
+### Block quotes
+
+> This is text
+> quoted from somewhere else
+
+### Code
+
+You can insert `code` in text.
