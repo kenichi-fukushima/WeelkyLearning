@@ -57,4 +57,4 @@ __Enclose by double star or double underscore to make text bold__
 
 ### Images
 
-![Alt text for image](imaeg1.png)
+![Alt text for image](image1.png)
