@@ -13,7 +13,20 @@ This is also H1 header
 ###### This is H6 header
 
 
-### Text styling
+### Lines and Paragraphs
+
+Blank
+
+line
+
+makes
+
+paragraphs.
+
+Two spaces at the end of a line  
+leaves a line break.
+
+### Text Styling
 
 *Enclose by single star or single underscore to make text italic*
 
