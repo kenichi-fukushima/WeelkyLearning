@@ -25,6 +25,8 @@ __Enclose by double star or double underscore to make text bold__
 
 *Italic text with __bold__ inside it*
 
+`Enclose by backquote to make text monospace.`
+
 ### Lists
 
 * Unordered List
