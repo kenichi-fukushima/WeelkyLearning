@@ -93,3 +93,13 @@ abc
 
 > This is text
 > quoted from somewhere else
+
+# GitHub Fravored Markdown
+
+## Syntax Highlighting
+
+```c
+int main(int argc, char** argv) {
+  return 0;
+}
+```
