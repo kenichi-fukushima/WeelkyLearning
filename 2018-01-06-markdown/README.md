@@ -43,5 +43,5 @@ __Enclose by double star or double underscore to make text bold__
 1. Mixing
     - unordered
     - and
-         1. ordered
-	 2. lists
+        1. ordered
+	1. lists
