@@ -1,4 +1,7 @@
-[Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
+# Resources
+
+- [Markdown - Wikipedia](https://en.wikipedia.org/wiki/Markdown)
+- [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 
 # This is H1 header
 
@@ -45,7 +48,7 @@ __Enclose by double star or double underscore to make text bold__
     1. Item 4
 1. Second Block
 
---
+---
 
 1. Mixing
     - unordered
