@@ -72,7 +72,3 @@ __Enclose by double star or double underscore to make text bold__
 
 > This is text
 > quoted from somewhere else
-
-### Code
-
-You can insert `code` in text.
