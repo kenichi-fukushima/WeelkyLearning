@@ -111,3 +111,11 @@ int main(int argc, char** argv) {
   return 0;
 }
 ```
+
+## Tables
+
+Country | Capital
+-------|--------
+Japan|Tokyo
+France|Paris
+China|Beijing
