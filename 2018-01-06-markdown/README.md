@@ -27,9 +27,9 @@ __Enclose by double star or double underscore to make text bold__
 
 1. Ordered List
   1. Item 1
-  1. Item 2
+  2. Item 2
     1. Subitem 2-1
-    1. Subitem 2-2
-  1. Item 3
+    2. Subitem 2-2
+  3. Item 3
     1. Subitem 3-1
-  1. Item 4
+  4. Item 4
