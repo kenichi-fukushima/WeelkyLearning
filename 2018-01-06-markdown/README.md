@@ -94,11 +94,19 @@ abc
 > This is text
 > quoted from somewhere else
 
-# GitHub Fravored Markdown
+# Code Block
 
 ## Syntax Highlighting
 
 ```c
+// This is C code.
+int main(int argc, char** argv) {
+  return 0;
+}
+```
+
+```
+// The same C code but no highlighting.
 int main(int argc, char** argv) {
   return 0;
 }
