@@ -46,4 +46,7 @@ __Enclose by double star or double underscore to make text bold__
     - unordered
     - and
         1. ordered
-	1. lists
+        1. lists.
+        1. Ordered lists require 4-space indent
+    - but unordered lists don't.
+
