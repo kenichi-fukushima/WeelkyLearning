@@ -1,8 +1,13 @@
-# Resources
+# References
 
 - [Markdown - Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 - [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
+- [Writing on GitHub - GitHub Help](https://help.github.com/categories/writing-on-github/)
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+- [RFC 7763 The text/markdown Media Type - IETF](https://tools.ietf.org/html/rfc7763)
+- [RFC 7764 Guidance on Markdown: Design Philosophies, Stability Strategies, and Select Registrations - IETF](https://tools.ietf.org/html/rfc7764)
+- [IANA Markdown Variants](https://www.iana.org/assignments/markdown-variants/markdown-variants.xhtml)
 
 # This is H1 header
 
