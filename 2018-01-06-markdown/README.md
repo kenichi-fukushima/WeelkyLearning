@@ -2,6 +2,7 @@
 
 - [Markdown - Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 - [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
+- [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 # This is H1 header
 
@@ -123,3 +124,8 @@ China|Beijing
 ## Strikethrough
 
 ~~Enclose text with double tilde to make it crossed out.~~
+
+## Emoji
+
+:confounded:  
+:rage:
