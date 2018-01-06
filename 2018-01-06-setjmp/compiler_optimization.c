@@ -1,3 +1,10 @@
+/*
+ * This program shows that optimization by the compiler may change
+ * program semantics setjmp() is called from within a function
+ * that has local variables.  Compiling and run this program with
+ * and without will give different results.
+ */
+
 #include <setjmp.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,24 +20,27 @@ static void doJump(int nvar, int rvar, int vvar) {
 }
 
 int main(int argc, char *argv[]) {
+  // These two variables may have wrong values after jump from a
+  // call of longjmp() as a result of compiler optimization.
   int nvar;
-  register int rvar;  /* Allocated in register if possible */
-  volatile int vvar;  /* See text */
+  register int rvar;
+  // Volatile variables always have correct values.
+  volatile int vvar;
 
   nvar = 111;
   rvar = 222;
   vvar = 333;
-  if (setjmp(env) == 0) {  /* Code executed after setjmp() */
+  if (setjmp(env) == 0) {
     nvar = 777;
     rvar = 888;
     vvar = 999;
     doJump(nvar, rvar, vvar);
-  } else {  /* Code executed after longjmp() */
+  } else {
     printf("After longjmp(): nvar=%d rvar=%d vvar=%d\n",
 	   nvar,
 	   rvar,
 	   vvar);
 
   }
-  exit(EXIT_SUCCESS);
+  return 0;
 }

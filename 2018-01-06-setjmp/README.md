@@ -8,6 +8,7 @@
 - Analyze behavior of programs that have setjmp/longjmp with the debugger.
 - Read the source code.
 - Explore applications of setjmp/longjmp.
+- What is `volatile` in C?
 
 # Summary
 - Usages
