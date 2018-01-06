@@ -119,3 +119,7 @@ Country | Capital
 Japan|Tokyo
 France|Paris
 China|Beijing
+
+## Strikethrough
+
+~~Enclose text with double tilde to make it crossed out.~~
