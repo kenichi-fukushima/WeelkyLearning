@@ -40,3 +40,8 @@ __Enclose by double star or double underscore to make text bold__
     1. Item 4
 1. Second Block
 
+1. Mixing
+    - unordered
+    - and
+         1. ordered
+	 2. lists
