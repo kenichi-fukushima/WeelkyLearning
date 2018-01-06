@@ -15,3 +15,13 @@ _Enclose by single star or single underscore to make text italic_
 __Enclose by double star or double underscore to make text bold__
 
 *Italic text with __bold__ inside it*
+
+* Unordered List
+  * Item 1
+    * Subitem 1-1
+    * Subitem 1-2
+  * Item 2
+    * Subitem 2-1
+  * Item 3
+  * Item 4
+
