@@ -13,7 +13,7 @@ This is also H1 header
 ###### This is H6 header
 
 
-### Lines and Paragraphs
+## Lines and Paragraphs
 
 Blank
 
@@ -26,7 +26,7 @@ paragraphs.
 Two spaces at the end of a line  
 leaves a line break.
 
-### Text Styling
+## Text Styling
 
 *Enclose by single star or single underscore to make text italic*
 
@@ -40,7 +40,7 @@ __Enclose by double star or double underscore to make text bold__
 
 `Enclose by backquote to make text monospace.`
 
-### Lists
+## Lists
 
 * Unordered List
   * Item 1
@@ -76,7 +76,7 @@ __Enclose by double star or double underscore to make text bold__
         1. Ordered lists require 4-space indent
     - but unordered lists don't.
 
-### Horizontal Rule
+## Horizontal Rule
 
 ---
 
@@ -84,12 +84,12 @@ abc
 
 ---
 
-### Images
+## Images
 
 ![Alt text for image](image1.png)
 
 
-### Block quotes
+## Block quotes
 
 > This is text
 > quoted from somewhere else
