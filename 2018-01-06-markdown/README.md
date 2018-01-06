@@ -25,6 +25,11 @@ __Enclose by double star or double underscore to make text bold__
   * Item 3
   * Item 4
 
+- You can use
+  - star or
+  - dash to
+    - create an unordered list
+
 1. Ordered List
     1. Item 1
     1. Item 2
@@ -34,3 +39,4 @@ __Enclose by double star or double underscore to make text bold__
         1. Subitem 3-1
     1. Item 4
 1. Second Block
+
