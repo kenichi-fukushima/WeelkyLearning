@@ -6,6 +6,9 @@
 
 ###### This is H6 header
 
+
+### Text styling
+
 *Enclose by single star or single underscore to make text italic*
 
 _Enclose by single star or single underscore to make text italic_
@@ -15,6 +18,8 @@ _Enclose by single star or single underscore to make text italic_
 __Enclose by double star or double underscore to make text bold__
 
 *Italic text with __bold__ inside it*
+
+### Lists
 
 * Unordered List
   * Item 1
@@ -50,3 +55,6 @@ __Enclose by double star or double underscore to make text bold__
         1. Ordered lists require 4-space indent
     - but unordered lists don't.
 
+### Images
+
+![Alt text for image](imaeg1.png)
