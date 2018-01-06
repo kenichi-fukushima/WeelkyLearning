@@ -66,7 +66,7 @@ __Enclose by double star or double underscore to make text bold__
     1. Item 4
 1. Second Block
 
----
+--
 
 1. Mixing
     - unordered
@@ -75,6 +75,12 @@ __Enclose by double star or double underscore to make text bold__
         1. lists.
         1. Ordered lists require 4-space indent
     - but unordered lists don't.
+
+### Horizontal Rule
+
+---
+abc
+---
 
 ### Images
 
