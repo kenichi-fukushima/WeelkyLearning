@@ -94,9 +94,9 @@ abc
 > This is text
 > quoted from somewhere else
 
-# Code Block
+# GitHub Fravored Markdown
 
-## Syntax Highlighting
+## Code Block
 
 ```c
 // This is C code.
