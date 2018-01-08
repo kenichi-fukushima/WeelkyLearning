@@ -1,4 +1,5 @@
 import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import org.junit.Test;
 
@@ -14,5 +15,10 @@ public class TimeRangeTest {
         assertEquals(range.getStart(), BASE_DATE_TIME);
         assertEquals(range.getEnd(), BASE_DATE_TIME.plusMinutes(5));
         assertEquals(range.getDuration(), Duration.ofMinutes(5));
+    }
+
+    @Test
+    public void negativeTimeRange() {
+        assertThatThrownBy(() -> TimeRange.between(BASE_DATE_TIME, BASE_DATE_TIME.minusMinutes(5))).isInstanceOf(IllegalArgumentException.class);
     }
 }

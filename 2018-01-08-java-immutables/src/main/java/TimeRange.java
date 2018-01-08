@@ -1,3 +1,6 @@
+import com.google.common.base.Preconditions;
+import org.immutables.value.Value;
+import org.immutables.value.Value.Check;
 import org.immutables.value.Value.Derived;
 import org.immutables.value.Value.Immutable;
 
@@ -16,5 +19,10 @@ public interface TimeRange {
 
     public static TimeRange between(LocalDateTime start, LocalDateTime end) {
         return ImmutableTimeRange.builder().start(start).end(end).build();
+    }
+
+    @Check
+    default void check() {
+        Preconditions.checkArgument(!getDuration().isNegative(), "TimeRange with negative duration is not allowed.");
     }
 }
